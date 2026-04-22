@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Performance Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="dashboard">
+        <h1>Player Performance Dashboard</h1>
+        <div id="players-list"></div>
+        <div id="player-details" style="display:none;"></div>
+        <div id="ai-assistant" style="display:none;">
+            <h2>AI Analysis Assistant</h2>
+            <div id="chat-box"></div>
+            <form id="ai-form">
+                <input type="text" id="ai-question" placeholder="Ask about this player..." required />
+                <button type="submit">Ask</button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
