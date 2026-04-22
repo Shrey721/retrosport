@@ -31,6 +31,12 @@ players_db = [
         "name": "Jane Smith",
         "position": "Midfielder",
         "stats": {"games": 22, "goals": 7, "assists": 12, "minutes": 2000}
+    },
+    {
+        "id": 3,
+        "name": "Shreyansh Sharma",
+        "position": "Defender",
+        "stats": {"games": 25, "goals": 3, "assists": 8, "minutes": 2200, "tackles": 60, "blocks": 18}
     }
 ]
 
